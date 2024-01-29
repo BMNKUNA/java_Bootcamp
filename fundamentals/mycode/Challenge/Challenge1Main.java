@@ -18,7 +18,16 @@ public class Challenge1Main extends Prompter { //Main point where methods will b
    Challenge1Main call1 = new Challenge1Main();
    call1.prompts();
 
+  /* String dob = "31/09/1994";
 
+boolean dateValidator = DateValidator.DateVal(dob);
+int age = 0;
+
+if(dateValidator){
+  age = AgeCalculator.calculator(dob);
+  System.out.println()
+}
+*/
 
 
  

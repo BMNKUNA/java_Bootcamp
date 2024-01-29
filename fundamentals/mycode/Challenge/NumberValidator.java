@@ -1,5 +1,5 @@
 public class NumberValidator {
-	Boolean numVal(String distance) { 
+	static Boolean numVal(String distance) { 
         
     try {
 

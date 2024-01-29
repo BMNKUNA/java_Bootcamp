@@ -2,7 +2,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Scanner;
 
-public class DateValidator {
+public class DateValidator extends Promter {
 
     public static boolean dateValidation(String dateOfBirth) {
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
@@ -17,7 +17,6 @@ public class DateValidator {
             return false;
         }
     }
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter date of birth (dd/MM/yyyy): ");

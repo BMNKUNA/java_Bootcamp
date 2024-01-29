@@ -2,7 +2,8 @@ import java.util.Scanner;
 import java.time.Year;
 
 public  class Prompter extends DateValidator {
-    void prompts() {
+    
+    public static void prompts() {
     // Start of execution
     Scanner in = new Scanner(System.in);
     // 1
@@ -53,8 +54,13 @@ public  class Prompter extends DateValidator {
 
     }
 
+    { /*AgeCalculator call4 = new AgeCalculator();
+    call4.AgeCalculator();*/
+
+    }
+
 }
 
-    // 5
+    // 5 
 
 }
